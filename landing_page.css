@@ -1,0 +1,287 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+  
+  /* Card Container */
+  .card-container {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-container .header-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-container .subheading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .card-container .enquire-button {
+    background-color: #fff;
+    color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-container .enquire-button:hover {
+    background-color: #ffe0d9;
+  }
+  
+  /* Contact Form Container */
+  .contact-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container .form-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .contact-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form .submit-button {
+    background-color: #ff7e5f;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form .submit-button:hover {
+    background-color: #e06650;
+  }
+
+  /* General Image Styling */
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Hover Effect for All Images */
+img:hover {
+    transform: scale(1.1); /* Slight zoom-in effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+  
+  /* Image Section */
+  .image-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  /* Highlights Section */
+  .highlights {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlights .highlight-card {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .highlights .highlight-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .highlights h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .highlights p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Amenities Section */
+  .amenities {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .amenities-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .amenity {
+    text-align: center;
+    flex: 1 1 100px;
+    max-width: 150px;
+  }
+  
+  .amenity img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .amenity span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .amenities .amenity img:hover {
+    background-color: #ffe0d9; /* Highlight background */
+    transform: scale(1.2);
+}
+  
+  /* Gallery Section */
+  .gallery {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1); /* Zoom effect */
+    border: 3px solid #ff7e5f; /* Highlight border */
+}
+  
+  /* Location Section */
+  .location {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .locations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .location-card {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .location-card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .location-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .location-card img:hover {
+    transform: rotate(5deg) scale(1.2); /* Rotate and zoom effect */
+    border-color: #ff7e5f; /* Highlight border */
+}
+  
+  /* Footer */
+  footer {
+    background-color: #ff7e5f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  footer .btn-enquire {
+    background-color: #fff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer .btn-enquire:hover {
+    background-color: #ffe0d9;
+  }
+  
+  /* Google Maps */
+iframe {
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
